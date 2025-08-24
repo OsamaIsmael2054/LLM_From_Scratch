@@ -1,4 +1,5 @@
 from .base import Tokenizer, merge_stats, get_stats
+from typing import List
 
 class BasicTokenizer(Tokenizer):
     """Minimal (byte-level) Byte Pair Encoding tokenizer.
